@@ -46,7 +46,9 @@ The following article will be updated
 
 Do a global search after "spring-beans-*.jar" and "spring*.jar"
 
+```sh
 find . -name spring-beans*.jar
+```
 
 
 
