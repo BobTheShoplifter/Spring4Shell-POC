@@ -1,7 +1,7 @@
-# SpringShell-POC
+# Spring4Shell-POC
 ![spring4shell](spring4shell.png)
 
-SpringShell Proof Of Concept/Information
+Spring4Shell Proof Of Concept/Information
 
 ## Details
 
