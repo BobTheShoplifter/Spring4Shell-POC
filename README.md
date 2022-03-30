@@ -42,6 +42,14 @@ If your JDK version is under 8, you might be safe, but nothing is confirmed yet
 
 The following article will be updated
 
+### Check if you are using the spring framework
+
+Do a global search after "spring-beans-*.jar" and "spring*.jar"
+
+find . -name spring-beans*.jar
+
+The following article will be updated
+
 
 ## Poc
 
