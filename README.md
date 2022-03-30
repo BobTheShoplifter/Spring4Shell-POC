@@ -17,4 +17,12 @@ The naming of this flaw is based on the similarities to the infamous Log4j LOG4S
 
 - No cve assigned yet
 
+
+## Poc
+
+```python
+s = ""
+print s
+```
+
 WIP :=)
