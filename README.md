@@ -3,6 +3,10 @@
 
 Spring4Shell Proof Of Concept/Information
 
+Early this morning, multiple sources has informed of a possible RCE exploit in the popular java framework spring.
+
+The naming of this flaw is based on the similarities to the infamous Log4j LOG4Shell. No POC has been shared for the time being
+
 ## Details
 
 * https://www.cyberkendra.com/2022/03/springshell-rce-0-day-vulnerability.html
