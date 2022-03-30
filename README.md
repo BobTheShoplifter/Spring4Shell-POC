@@ -19,7 +19,7 @@ The naming of this flaw is based on the similarities to the infamous Log4j LOG4S
 
 ## Mitigations
 
-###JDK Version under 9
+### JDK Version under 9
 
 Cyberkendra informed that JDK versions lower than JDK 9
 
