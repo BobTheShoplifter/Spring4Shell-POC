@@ -57,6 +57,8 @@ find . -name spring-beans*.jar
 
 Found intresting poc here : https://github.com/craig/SpringCore0day/blob/main/exp.py & https://twitter.com/vxunderground/status/1509170582469943303
 
+Not been able to test this yet, feel free to create a PR with changes
+
 ```python
 python poc.py
 ```
