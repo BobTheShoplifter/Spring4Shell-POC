@@ -21,8 +21,6 @@ The naming of this flaw is based on the similarities to the infamous Log4j LOG4S
 ## Poc
 
 ```python
-s = ""
-print s
 ```
 
 WIP :=)
