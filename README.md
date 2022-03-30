@@ -56,6 +56,7 @@ find . -name spring-beans*.jar
 ## Poc
 
 ```python
+python poc.py
 ```
 
 WIP :=)
