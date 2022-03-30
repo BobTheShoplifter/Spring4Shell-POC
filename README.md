@@ -48,7 +48,6 @@ Do a global search after "spring-beans-*.jar" and "spring*.jar"
 
 find . -name spring-beans*.jar
 
-The following article will be updated
 
 
 ## Poc
