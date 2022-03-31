@@ -16,7 +16,7 @@ The naming of this flaw is based on the similarities to the infamous Log4j LOG4S
 
 ## CVE
 
-- No cve assigned yet
+- CVE-2022-22965
 
 ## Mitigations
 
