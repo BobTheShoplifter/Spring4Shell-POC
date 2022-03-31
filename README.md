@@ -55,7 +55,7 @@ find . -name spring-beans*.jar
 
 ## Poc
 
-Found intresting poc here : https://github.com/craig/SpringCore0day/blob/main/exp.py & https://twitter.com/vxunderground/status/1509170582469943303
+Found intresting poc here : https://github.com/craig/SpringCore0day/blob/main/exp.py [^1]. & https://twitter.com/vxunderground/status/1509170582469943303
 
 * clone sample repo from https://spring.io/guides/gs/handling-form-submission/
 * you can skip right to the gs-handling-form-submission/complete directory, no need to follow the tutorial
@@ -68,3 +68,5 @@ Found intresting poc here : https://github.com/craig/SpringCore0day/blob/main/ex
 * hit http://your.ip.here:8080/handling-form-submission/tomcatwar.jsp?pwd=j&cmd=id to see the results
 
 WIP :=)
+
+[^1]: POC, translated fron this repository.
