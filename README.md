@@ -8,11 +8,11 @@ Early this morning, multiple sources has informed of a possible RCE exploit in t
 The naming of this flaw is based on the similarities to the infamous Log4j LOG4Shell. 
 ## Details
 
-* https://www.cyberkendra.com/2022/03/springshell-rce-0-day-vulnerability.html
-* https://bugalert.org/content/notices/2022-03-29-spring.html
-* https://websecured.io/blog/624411cf775ad17d72274d16/spring4shell-poc
-* https://www.springcloud.io/post/2022-03/spring-0day-vulnerability
-* https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement
+* [https://www.cyberkendra.com/2022/03/springshell-rce-0-day-vulnerability.html](https://www.cyberkendra.com/2022/03/springshell-rce-0-day-vulnerability.html)
+* [https://bugalert.org/content/notices/2022-03-29-spring.html](https://bugalert.org/content/notices/2022-03-29-spring.html)
+* [https://websecured.io/blog/624411cf775ad17d72274d16/spring4shell-poc](https://websecured.io/blog/624411cf775ad17d72274d16/spring4shell-poc)
+* [https://www.springcloud.io/post/2022-03/spring-0day-vulnerability](https://www.springcloud.io/post/2022-03/spring-0day-vulnerability)
+* [https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement)
 
 ## CVE
 
