@@ -28,7 +28,7 @@ def Exploit(url):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Srping-Core Rce.')
+    parser = argparse.ArgumentParser(description='Spring-Core Rce.')
     parser.add_argument('--file',help='url file',required=False)
     parser.add_argument('--url',help='target url',required=False)
     args = parser.parse_args()
