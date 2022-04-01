@@ -9,6 +9,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 from urllib.parse import urljoin
 from threading import Thread
+from sys import exit
 
 
 class Exploit(Thread):
@@ -61,8 +62,12 @@ if __name__ == '__main__':
 
     if args.url:
         Exploit(args.url).start()
+        exit()
 
     if args.file:
         with open(args.file) as f:
             urls = [i.strip() for i in f.readlines()]
             [Exploit(url).start() for url in urls]
+
+    else:
+        parser.print_help()
