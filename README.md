@@ -67,6 +67,11 @@ Do a global search after "spring-beans-*.jar" and "spring*.jar"
 find . -name spring-beans*.jar
 ```
 
+## Usage:
+```python
+poc.py --help
+```
+
 
 WIP :=)
 
