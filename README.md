@@ -18,6 +18,11 @@ The naming of this flaw is based on the similarities to the infamous Log4j LOG4S
 
 - CVE-2022-22965
 
+## Usage:
+```python
+poc.py --help
+```
+
 ## Poc
 
 Found intresting poc here : https://github.com/craig/SpringCore0day/blob/main/exp.py [^1]. & https://twitter.com/vxunderground/status/1509170582469943303
@@ -65,11 +70,6 @@ Do a global search after "spring-beans-*.jar" and "spring*.jar"
 
 ```sh
 find . -name spring-beans*.jar
-```
-
-## Usage:
-```python
-poc.py --help
 ```
 
 
