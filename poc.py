@@ -1,9 +1,6 @@
 #! /usr/bin/env python3
 #coding:utf-8
 
-# Forked from source: https://github.com/BobTheShoplifter/Spring4Shell-POC
-# Bugs fixed by Rupe 03.30.2022 v.01
-
 import requests
 import argparse
 import urllib3
