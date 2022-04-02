@@ -23,12 +23,15 @@ pip install -r requirements.txt
 poc.py --help
 ```
 
+![image](https://user-images.githubusercontent.com/22559547/161398549-05d279b2-51d6-49fb-9245-018747606321.png)
+
 ```sh
 docker pull ghcr.io/bobtheshoplifter/spring4shell-poc:main
-docker run ghcr.io/bobtheshoplifter/spring4shell-poc:main --url https://websecured.io/
+docker run ghcr.io/bobtheshoplifter/spring4shell-poc:main --url https://example.io/
 ```
 
-![image](https://user-images.githubusercontent.com/22559547/161398549-05d279b2-51d6-49fb-9245-018747606321.png)
+![image](https://user-images.githubusercontent.com/22559547/161400099-fb6c4f02-9d48-457a-8c91-041a9a8438b7.png)
+
 
 
 ## Poc
