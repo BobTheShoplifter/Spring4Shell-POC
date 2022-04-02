@@ -22,6 +22,9 @@ The naming of this flaw is based on the similarities to the infamous Log4j LOG4S
 poc.py --help
 ```
 
+![image](https://user-images.githubusercontent.com/22559547/161398549-05d279b2-51d6-49fb-9245-018747606321.png)
+
+
 ## Poc
 
 Found intresting poc here : https://github.com/craig/SpringCore0day/blob/main/exp.py [^1]. & https://twitter.com/vxunderground/status/1509170582469943303
