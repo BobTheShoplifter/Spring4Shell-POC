@@ -14,9 +14,8 @@ The naming of this flaw is based on the similarities to the infamous Log4j LOG4S
 * [https://www.springcloud.io/post/2022-03/spring-0day-vulnerability](https://www.springcloud.io/post/2022-03/spring-0day-vulnerability)
 * [https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement)
 
-## CVE
-
-- CVE-2022-22965
+## Requirements
+* Python3
 
 ## Usage:
 ```python
