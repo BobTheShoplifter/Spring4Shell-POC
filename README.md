@@ -15,11 +15,17 @@ The naming of this flaw is based on the similarities to the infamous Log4j LOG4S
 * [https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement)
 
 ## Requirements
-* Python3
+* Python3 Or Docker
 
 ## Usage:
 ```python
+pip install -r requirements.txt
 poc.py --help
+```
+
+```sh
+docker pull ghcr.io/bobtheshoplifter/spring4shell-poc:main
+docker run ghcr.io/bobtheshoplifter/spring4shell-poc:main --url https://websecured.io/
 ```
 
 ![image](https://user-images.githubusercontent.com/22559547/161398549-05d279b2-51d6-49fb-9245-018747606321.png)
