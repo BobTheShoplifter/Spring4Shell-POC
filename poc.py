@@ -62,7 +62,7 @@ class Exploit(Thread):
                     print(f"Vulnerable，shell url: {shellurlroot}?pwd=j&cmd=whoami")
                 else:
                     print(f"\033[91m[" + '\u2718' + "]\033[0m", self.url,
-                        "\033[91mNot Vulnerable!\033[0m ")
+                        "\033[91mNot Vulnerable! :(\033[0m ")
 
         except Exception as e:
             print(e)
