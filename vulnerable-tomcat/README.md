@@ -49,6 +49,11 @@ docker pull ghcr.io/bobtheshoplifter/spring4shell-poc:main
 docker run ghcr.io/bobtheshoplifter/spring4shell-poc:main --url http://<dockerip>:8888/spring-form/greeting
 ```
 
+If all goes well you should see something simular to this!
+
+![image](https://user-images.githubusercontent.com/22559547/161576282-a11873df-9b34-454b-9a92-2e15bb9d2a43.png)
+
+
 ## Example (Manual/Old)
 
 Found intresting poc here : <https://github.com/craig/SpringCore0day/blob/main/exp.py> [^1]. & <https://twitter.com/vxunderground/status/1509170582469943303>
