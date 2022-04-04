@@ -40,6 +40,9 @@ poc.py --help
 ![image](https://user-images.githubusercontent.com/22559547/161398549-05d279b2-51d6-49fb-9245-018747606321.png)
 
 ```sh
+docker pull bobtheshoplifter/spring4shell-poc:latest
+docker run ghcr.io/bobtheshoplifter/spring4shell-poc:main --url https://example.io/
+## Github docker repository
 docker pull ghcr.io/bobtheshoplifter/spring4shell-poc:main
 docker run ghcr.io/bobtheshoplifter/spring4shell-poc:main --url https://example.io/
 ```
