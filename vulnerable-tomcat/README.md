@@ -4,6 +4,8 @@
 
 ## Example (Docker)
 
+Prebuilt image availible at [Docker Hub](https://hub.docker.com/r/bobtheshoplifter/spring4shell-vulnerable-tomcat)
+
 An example of a vulnerable Tomcat application + server.
 
 War files built from /spring-war folder. (It is recommended to build your own war files but i have provided one based on <https://spring.io/guides/gs/handling-form-submission/>)
