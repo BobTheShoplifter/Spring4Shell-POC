@@ -12,12 +12,7 @@ on:
     branches: [main]
     paths-ignore:
       - 'vulnerable-tomcat/**'
-    paths:
-      - '!vulnerable-tomcat/**'
-      - '!README.md'
-      - 'poc.py'
-      - 'Dockerfile'
-      - 'requirements.txt'
+      - 'README.md'
     # Publish semver tags as releases.
     tags: ['v*.*.*']
   pull_request:
