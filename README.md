@@ -2,7 +2,7 @@
 
 ![Spring4Shell](spring4shell.png)
 
-![Docker Build](https://github.com/BobTheShoplifter/Spring4Shell-POC/actions/workflows/docker-publish.yml/badge.svg) ![Stars](https://img.shields.io/github/stars/BobTheShoplifter/Spring4Shell-POC?style=social) ![Docker Run](https://img.shields.io/github/followers/BobTheShoplifter?label=Follow&style=social)
+![Docker Build](https://github.com/BobTheShoplifter/Spring4Shell-POC/actions/workflows/docker-publish.yml/badge.svg) ![Docker App Build](https://github.com/BobTheShoplifter/Spring4Shell-POC/actions/workflows/app-docker-publish.yml/badge.svg) ![Stars](https://img.shields.io/github/stars/BobTheShoplifter/Spring4Shell-POC?style=social) ![Docker Run](https://img.shields.io/github/followers/BobTheShoplifter?label=Follow&style=social)
 
 Spring4Shell (CVE-2022-22965) Proof Of Concept/Information + A vulnerable Tomcat server with a vulnerable spring4shell application.
 
