@@ -4,4 +4,4 @@ ADD spring-form.war /usr/local/tomcat/webapps/
 
 EXPOSE 8888
 
-CMD ["catalina.sh", "run"]
+CMD ["catalina.sh", "run",""]
