@@ -6,8 +6,6 @@ name: Docker
 # documentation.
 
 on:
-  schedule:
-    - cron: '16 18 * * *'
   push:
     branches: [main]
     paths-ignore:
