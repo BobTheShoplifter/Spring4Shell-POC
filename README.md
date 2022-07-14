@@ -84,7 +84,7 @@ The following article will be updated
 
 ### Check if you are using the spring framework
 
-Do a global search after "spring-beans-_.jar" and "spring_.jar"
+Do a global search after `spring-beans*.jar` and `spring*.jar`
 
 ```sh
 find . -name spring-beans*.jar
