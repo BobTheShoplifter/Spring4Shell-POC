@@ -91,3 +91,5 @@ find . -name spring-beans*.jar
 ```
 
 [^1]: POC, translated fron this repository.
+
+POC, translated fron this repository: Found intresting poc here : https://github.com/craig/SpringCore0day/blob/main/exp.py
